@@ -1,0 +1,44 @@
+site_name: Vexel Admin Documentation
+site_description: Documentation for Vexel Admin
+site_author: Maatijaa
+site_url: https://maatijaa.github.io/pdataservice-docs/
+
+repo_name: VexelAdmin/vexel-admin
+repo_url: https://github.com/VexelAdmin/vexel-admin
+edit_uri: ""
+
+theme:
+  icon:
+    logo: assets/favicon.png
+    repo: fontawesome/brands/git-alt
+  name: material
+  favicon: assets/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+copyright: |
+  &copy; 2024 <a href="https://discord.gg/Rec2aXbC"  target="_blank" rel="noopener">Vexel Admin</a>
