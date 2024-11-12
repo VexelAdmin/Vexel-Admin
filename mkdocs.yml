@@ -1,7 +1,7 @@
 site_name: Vexel Admin Documentation
 site_description: Documentation for Vexel Admin
 site_author: Maatijaa
-site_url: https://maatijaa.github.io/pdataservice-docs/
+site_url: https://vexel-admin.github.io/vexeladmin-docs/
 
 repo_name: VexelAdmin/vexel-admin
 repo_url: https://github.com/VexelAdmin/vexel-admin
@@ -9,7 +9,6 @@ edit_uri: ""
 
 theme:
   icon:
-    logo: assets/favicon.png
     repo: fontawesome/brands/git-alt
   name: material
   favicon: assets/favicon.png
